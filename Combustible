@@ -1,0 +1,10 @@
+package edu.sdccd.cisc191;
+
+public interface Combustible{
+    int FuelLevel = 0;
+    default void tankUp(){
+
+    }
+
+    int getFuelLevel();
+}
