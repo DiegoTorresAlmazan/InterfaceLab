@@ -1,0 +1,9 @@
+package edu.sdccd.cisc191;
+
+public interface Chargeable {
+
+        int BatteryCharge = 0;
+        void chargeUp();
+
+        int getBatteryCharge();
+    }
